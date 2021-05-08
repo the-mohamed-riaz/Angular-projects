@@ -1,0 +1,31 @@
+.card--size {
+    width: 22rem;
+    height: auto;
+    margin: 10px 10px;
+}
+
+.scroll--off {
+    overflow: hidden;
+}
+
+.image--icon {
+    width: 2rem;
+}
+
+.is-vh-center {
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+
+.fillet-1x {
+    border-radius: 1rem;
+}
+
+:host {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin: 10% 10px;
+}
