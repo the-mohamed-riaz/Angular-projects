@@ -1,0 +1,16 @@
+<table class="ui striped table">
+    <thead>
+        <tr>
+            <td *ngFor="let x of tableOrder">
+                {{x.value}}
+            </td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let y of data">
+            <td *ngFor="let z of tableOrder">
+                {{y[z.keys]}}
+            </td>
+        </tr>
+    </tbody>
+</table>
